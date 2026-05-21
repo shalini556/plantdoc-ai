@@ -1,0 +1,62 @@
+.bar {
+  flex-shrink: 0;
+  height: var(--top-h);
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 18px;
+  border-bottom: 1px solid transparent;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.logo i { font-size: 22px; }
+
+.title {
+  position: absolute;
+  left: 50%; transform: translateX(-50%);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.back {
+  width: 36px; height: 36px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.action {
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  background: var(--bg-card);
+  border: 1.5px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 17px;
+  color: var(--text-2);
+  box-shadow: var(--shadow);
+}
